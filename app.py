@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load model and encoders
-model = joblib.load('restaurant_rating_model(5).pkl')
+model = joblib.load('restaurent_rating_model(5).pkl')
 encoders = joblib.load('encoders(7).pkl')
 
 st.title("🍽️ Restaurant Rating Predictor")
